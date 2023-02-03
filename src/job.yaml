@@ -5,7 +5,7 @@ command: >-
   --training_data ${{inputs.training_data}}
 inputs:
   training_data: 
-    path: azureml:nyc-taxi-data-2:1
+    path: azureml:nyc-taxi-data:1
     mode: ro_mount  
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: cluster20230203T001955Z
